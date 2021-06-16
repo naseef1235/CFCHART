@@ -26,14 +26,14 @@ async def start(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="<b>🔊 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🤭.\n\nനിങ്ങൾക്ക് മൂവീസ് വേണോ? എങ്കിൽ തായെ കാണുന്ന ഞങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യുക.😂\nഎന്നിട്ട് ഗ്രൂപ്പിൽ പോയി വീണ്ടും മൂവിയിൽ ക്ലിക് ചെയ്ത് start കൊടുത്തു നോക്കൂ..!😁</b>",
+                text="<b>🔊 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🤭.\n\nനിങ്ങൾക്ക് മൂവീസ് വേണോ? എങ്കിൽ തായെ കാണുന്ന ഞങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യുക.😂\nഎന്നിട്ട് ഗ്രൂപ്പിൽ പോയി വീണ്ടും മൂവിയിൽ ക്ലിക് ചെയ്ത് /start കൊടുത്തു നോക്കൂ..!😁 To use you must join my channel to get movie files. Join and click start</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 💢 𝙹𝚘𝚒𝚗 𝙼𝚢 𝚄𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 💢 ", url=f"https://t.me/{UPDATE_CHANNEL}")]
+                    [ InlineKeyboardButton(text=" 💢 Join channel 💢 ", url=f"https://t.me/{UPDATE_CHANNEL}")]
               ])
             )
             return
         except Exception:
-            await update.reply_text("<b>This bot should be the admin on your update channel</b>\n\n<b>🗣️ any Doubt @Mo_Tech_Group</b>")
+            await update.reply_text("<b>This bot should be the admin on your update channel</b>\n\n<b>🗣️ any Doubt @CFCHART</b>")
             return    
     try:
         file_uid = update.command[1]
@@ -61,7 +61,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/CFCHART"
                                 )
                         ]
                     ]
@@ -80,7 +80,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/CFCHART"
                                 )
                         ]
                     ]
@@ -99,7 +99,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/CFCHART"
                                 )
                         ]
                     ]
@@ -118,7 +118,7 @@ async def start(bot, update):
         InlineKeyboardButton('👩‍👩‍👧 𝙶𝚛𝚘𝚞𝚙', url=f'{MT_GROUP}'),
         InlineKeyboardButton('𝙲𝚑𝚊𝚗𝚗𝚎𝚕 🔊', url=f'{MT_CHANNEL}')
     ],[
-        InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://youtu.be/OTqZmADyOjU')
+        InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://youtube.com/channel/UCKW-Gc5fBQybmjdxE-ISplw')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -157,10 +157,10 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 @𝙼𝚛𝚔_𝚈𝚃 👤', url='https://t.me/MRK_YT'),
-        InlineKeyboardButton('@𝚂𝚔𝚙_𝙺𝚙 👤', url='https://t.me/Skp_Kp')
+        InlineKeyboardButton('👤 @𝙼𝚛𝚔_𝚈𝚃 👤', url='https://t.me/CFCHART'),
+        InlineKeyboardButton('@𝚂𝚔𝚙_𝙺𝚙 👤', url='https://t.me/CFCHART')
     ],[
-        InlineKeyboardButton('👤 @𝙰𝚕𝚋𝚎𝚛𝚝𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗𝚃𝙶 👤', url='https://t.me/AlbertEinsteinTG')
+        InlineKeyboardButton('👤 @𝙰𝚕𝚋𝚎𝚛𝚝𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗𝚃𝙶 👤', url='https://t.me/CFCHART')
     ],[
         InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
         InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
